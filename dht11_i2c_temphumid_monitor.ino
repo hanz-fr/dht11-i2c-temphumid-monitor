@@ -66,7 +66,7 @@ void loop() {
   display.setTextSize(2);
   display.setTextColor(SSD1306_WHITE);
   display.print(humidity);
-  display.write(0xF7);
+  display.write(0x25);
   display.display();
 
   // Check if any reading failed
